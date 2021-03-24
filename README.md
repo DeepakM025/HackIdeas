@@ -29,6 +29,14 @@ You can upvote by clicking upvote button.
 
 To logout you can use logout button right side of navbar.
 
+### Using :
+
+Basic React app structure
+
+Bootstrap
+
+CSS and HTML
+
 
 ### Please note : 
 
