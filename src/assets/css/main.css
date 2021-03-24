@@ -1,0 +1,261 @@
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../fonts/Roboto-Regular.woff") format("woff"),
+    url("../fonts/Roboto-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url("../fonts/Roboto-Medium.woff") format("woff"),
+    url("../fonts/Roboto-Medium.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url("../fonts/Roboto-Bold.woff") format("woff"),
+    url("../fonts/Roboto-Bold.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto-Black";
+  src: url("../fonts/Roboto-Black.woff") format("woff"),
+    url("../fonts/Roboto-Black.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto-Light";
+  src: url("../fonts/Roboto-Light.woff") format("woff"),
+    url("../fonts/Roboto-Light.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Sacramento-Regular";
+  src: url("../fonts/Sacramento-Regular.woff") format("woff"),
+    url("../fonts/Sacramento-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Roboto-Regular" !important;
+  background-color: #1d1d1d;
+  color: #ffffff;
+}
+.nav_bar {
+  border-bottom: 1px solid #ff5851;
+  z-index: 9;
+  padding: 0.7rem 0;
+}
+.nav_bar .nav_brand:hover {
+  text-decoration: none !important;
+}
+
+.nav_bar .nav_brand_wrap p {
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  font-size: 16px;
+  margin: 0;
+}
+.logout_btn{
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  font-size: 14px;
+  margin: 0;
+  text-decoration: none;
+  margin-left: auto;
+}
+.logout_btn:hover{
+  color: #ff5851;
+  text-decoration: none;
+}
+
+.main_wrap {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+}
+.form_login {
+  height: fit-content;
+}
+.form_login h2 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+form input,
+form textarea {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  box-shadow: none;
+  outline: none;
+  padding: 0.4rem;
+  background-color: #ffffff;
+  color: #000000;
+}
+form button {
+  padding: 0.4rem 1rem;
+  border: none;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-size: 1rem;
+}
+.compose_form {
+  width: 50%;
+}
+.compose_form input,
+.compose_form textarea {
+  width: 100%;
+}
+.tags_wrap {
+  background-color: #ffffff;
+  padding: 0.4rem;
+  position: relative;
+}
+.tags_wrap input {
+  display: inline;
+  border: none;
+  width: fit-content;
+}
+.tags_wrap span {
+  background-color: #ff5851;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  margin-right: 4px;
+  cursor: pointer;
+}
+.tags_wrap button {
+  position: absolute;
+  right: 6px;
+  top: 10px;
+  font-size: 14px;
+  background-color: #000;
+  padding: 0.2rem 0.4rem;
+  color: #fff;
+  border-radius: 4px;
+}
+.selected_tags {
+  display: inline;
+}
+.selected_tags span {
+  background-color: #8ed422;
+}
+.dashboard__wrap h2 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  display: inline-block;
+}
+.dashboard__wrap > .row > a {
+  background-color: #ffffff;
+  padding: 0.4rem;
+  font-size: 1rem;
+  color: #000000;
+  outline: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  margin-left: 7rem;
+  text-decoration: none;
+}
+.dashboard__wrap select{
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 12px;
+  margin-left: auto;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  border-radius: 4px;
+  border: 1px solid #ff5851;
+  outline: none;
+}
+.dashboard__wrap > a:hover {
+  text-decoration: none;
+}
+.list_ideas {
+  padding: 1rem 0;
+  width: 50%;
+}
+.list_ideas > h4{
+  font-size: 1.5rem;
+  letter-spacing: .2rem;
+  text-transform: uppercase;
+  line-height: 2;
+}
+.idea_wrap {
+  padding: 1rem;
+  border: 2px solid #ff5851;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+.idea_wrap h4 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  margin-bottom: 0.1rem;
+}
+.idea_wrap span {
+  font-size: 0.8rem;
+  color: #dbdbdb;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+.idea_wrap h6 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  margin-bottom: 0;
+  margin-top: 1rem;
+}
+.upvote_wrap > button {
+  background-color: #1ec31e;
+  border: none;
+  color: #fff;
+  font-size: 12px;
+  letter-spacing: 0.1rem;
+  border-radius: 4;
+  border-radius: 4px;
+}
+.upvote_wrap > button.active {
+  background-color: #e33838;
+}
+.upvote_wrap > p {
+  font-size: 12px;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+.upvote_wrap > p > b {
+  font-size: 16px;
+  font-family: "Roboto-black";
+  letter-spacing: 0.1rem;
+}
+.tags__container span{
+  font-size: 10px;
+  text-transform: lowercase;
+  color: #fff;
+  padding-right: 6px;
+}
