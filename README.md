@@ -2,28 +2,40 @@
 
 Take a pull from git or download zip
 
-and run npm install in the project base
+And run npm install in the project base
 
-after that run npm start
+After that run npm start
 
 
 ### How it works - 
 
 By default it will land on login page on load.
-You can use any text or number with maximum length 5 to login ex: "12345" or "hdd12".
-Since i am using localstorage as my database you cannot see pre filled data so you have to create a data by clicking "CREATE YOUR HACKIDEA" button
-Post that you will see a form with title, tags and description inputs. You can fill them and submit
-To use the predefined tags that you see below in red color you just have to click on it.
-And to add new tag of your own you need to fill that input and click add button.
-to remove tag click on the filled tag which is in green color.
-And click on HACKIDEA logo to come to dashboard you will get to see your record with timestamp and your logged in ID.
-You can upvote by clicking upvote button.
-to logout you can use logout button right side of navbar.
 
-Please note : 
+You can use any text or number with maximum length 5 to login ex: "12345" or "hdd12".
+
+Since i am using localstorage as my database you cannot see pre filled data so you have to create a data by clicking "CREATE YOUR HACKIDEA" button.
+
+Post that you will see a form with title, tags and description inputs. You can fill them and submit.
+
+To use the predefined tags that you see below in red color you just have to click on it.
+
+And to add new tag of your own you need to fill that input and click add button.
+
+To remove tag click on the filled tag which is in green color.
+
+And click on HACKIDEA logo to come to dashboard you will get to see your record with timestamp and your logged in ID.
+
+You can upvote by clicking upvote button.
+
+To logout you can use logout button right side of navbar.
+
+
+### Please note : 
 
 I did this in 2 days post office hours.
+
 I do not have experience in TDD so i didn't try and mess it up.
+
 I always think i can do better and my best yet to come.
 
 
