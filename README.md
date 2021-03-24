@@ -1,10 +1,13 @@
-Setup:
+### Setup:
 
 Take a pull from git or download zip
+
 and run npm install in the project base
+
 after that run npm start
 
-How it works - 
+
+### How it works - 
 
 By default it will land on login page on load.
 You can use any text or number with maximum length 5 to login ex: "12345" or "hdd12".
